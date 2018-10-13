@@ -51,6 +51,11 @@ HTML UI layout for Angular using Flexbox and a Responsive API [Angular Flex-Layo
 `npm install @angular/flex-layout@latest --save`
  import the module in your app.module.ts
  (Quick start)[https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c]
+ 
+ or
+ `npm install angular/flex-layout-builds --save`
+ or
+ `npm install @angular/flex-layout@6.0.0-beta.18`-*ok*
 
 ## Further help
 
