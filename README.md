@@ -30,9 +30,32 @@ By using command line parameter --routing we’re able to specify that a routing
 ## Selecting A Styling Variant
 By default Angular CLI generates a CSS file for every component which is added to the project. By using option --style you can change to other CSS preprocessors like you can see in the following:
 
-`$ ng new [name] --style=scss`
+`$ ng new [name] --style=scss` 
+or 
+`ng new [name] --routing -is -st -style=scss`
+OBS:With the command above, we are asking Angular CLI to create a new project with a routing module (--routing), use inline style (-is) for app.component.ts, skip the creation of unit testing files (-st) - since we will not need .spec file for this example and also use scss as extension for our style/CSS files.
 
 [Creating Angular Projects With Angular CLI](https://medium.com/codingthesmartway-com-blog/creating-angular-projects-with-angular-cli-e32b2cb486da).
+
+### Angular Material 2
+`npm install --save @angular/material @angular/cdk hammerjs`
+[loiane](https://loiane.com/2017/07/getting-started-with-angular-material-2/)
+
+I prefer importing the theme and Material Icons as described at [section #4](https://loiane.com/2017/07/getting-started-with-angular-material-2/#4-include-a-theme-and-material-icons)
+
+Angular Material components depend on _@angular/animations_ package
+`npm install --save @angular/animations`
+
+### Angular Flex-Layout
+HTML UI layout for Angular using Flexbox and a Responsive API [Angular Flex-Layout](https://github.com/angular/flex-layout)
+`npm install @angular/flex-layout@latest --save`
+ import the module in your app.module.ts
+ (Quick start)[https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c]
+ 
+ or
+ `npm install angular/flex-layout-builds --save`
+ or
+ `npm install @angular/flex-layout@6.0.0-beta.18`-*ok*
 
 ## Further help
 
