@@ -41,8 +41,16 @@ OBS:With the command above, we are asking Angular CLI to create a new project wi
 `npm install --save @angular/material @angular/cdk hammerjs`
 [loiane](https://loiane.com/2017/07/getting-started-with-angular-material-2/)
 
+I prefer importing the theme and Material Icons as described at [section #4](https://loiane.com/2017/07/getting-started-with-angular-material-2/#4-include-a-theme-and-material-icons)
+
 Angular Material components depend on _@angular/animations_ package
 `npm install --save @angular/animations`
+
+### Angular Flex-Layout
+HTML UI layout for Angular using Flexbox and a Responsive API [Angular Flex-Layout](https://github.com/angular/flex-layout)
+`npm install @angular/flex-layout@latest --save`
+ import the module in your app.module.ts
+ (Quick start)[https://medium.com/letsboot/quick-start-with-angular-material-and-flex-layout-1b065aa1476c]
 
 ## Further help
 
