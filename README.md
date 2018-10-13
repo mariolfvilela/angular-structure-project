@@ -30,9 +30,19 @@ By using command line parameter --routing we’re able to specify that a routing
 ## Selecting A Styling Variant
 By default Angular CLI generates a CSS file for every component which is added to the project. By using option --style you can change to other CSS preprocessors like you can see in the following:
 
-`$ ng new [name] --style=scss`
+`$ ng new [name] --style=scss` 
+or 
+`ng new [name] --routing -is -st -style=scss`
+OBS:With the command above, we are asking Angular CLI to create a new project with a routing module (--routing), use inline style (-is) for app.component.ts, skip the creation of unit testing files (-st) - since we will not need .spec file for this example and also use scss as extension for our style/CSS files.
 
 [Creating Angular Projects With Angular CLI](https://medium.com/codingthesmartway-com-blog/creating-angular-projects-with-angular-cli-e32b2cb486da).
+
+### Angular Material 2
+`npm install --save @angular/material @angular/cdk hammerjs`
+[loiane](https://loiane.com/2017/07/getting-started-with-angular-material-2/)
+
+Angular Material components depend on _@angular/animations_ package
+`npm install --save @angular/animations`
 
 ## Further help
 
